@@ -693,6 +693,11 @@ img {
 	color: var(--first-color);
 }
 
+.services__modal-icon {
+	color: var(--first-color);
+	margin-right: var(--mb-0-25);
+}
+
 
 /* Active Modal */
 
