@@ -805,6 +805,10 @@ img {
 }
 
 /*==================== TESTIMONIAL ====================*/
+.testimonial {
+	overflow: hidden;
+}
+
 .testimonial__data,
 .testimonial__header {
 	display: flex;
