@@ -28,7 +28,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
@@ -54,14 +54,16 @@
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i> Contact Me
+                <i class="uil uil-message nav__icon"></i> Contactme
               </a>
             </li>
           </ul>
           <i class="uil uil-times nav__close" id="nav-close"></i>
         </div>
 
-        <div class="nav__btn">
+        <div class="nav__btns">
+					<!-- Theme change button -->
+					<i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -81,21 +83,21 @@
                 class="home__social-icon"
                 target="_blank"
               >
-                <i class="uil uil-linkedin-alt"></i>
+								<i class="uil uil-github"></i>
               </a>
               <a
                 href="#!"
                 class="home__social-icon"
                 target="_blank"
               >
-                <i class="uil uil-dribbble"></i>
+								<i class="uil uil-telegram"></i>
               </a>
               <a
                 href="#!"
                 class="home__social-icon"
                 target="_blank"
               >
-                <i class="uil uil-github-alt"></i>
+								<i class="uil uil-instagram"></i>
               </a>
             </div>
 
@@ -160,7 +162,7 @@
         <span class="section__subtitle">My Introduction</span>
 
         <div class="about__container container grid">
-          <img class="about__img" src="assets/img/author.jpg" alt="" />
+          <img class="about__img" src="assets/img/dev.png" alt="" />
 
           <div class="about__data">
             <p class="about__description">
@@ -898,9 +900,41 @@
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+			<div class="footer__bg">
+				<div class="footer__container container grid">
+					<div>
+						<h1 class="footer__title">Azamat</h1>
+						<span class="footer__subtitle">Frontend Developer</span>
+					</div>
+
+					<ul class="footer__links">
+						<li>
+							<a href="#services" class="footer__link">Services</a>
+						</li>
+						<li>
+							<a href="#portfolio" class="footer__link">Portfolio</a>
+						</li>
+						<li>
+							<a href="#contact" class="footer__link">Contactme</a>
+						</li>
+					</ul>
+
+					<div class="footer__socials">
+						<a href="#" class="footer__social" target="_blank"><i class="uil uil-github"></i></a>
+						<a href="#" class="footer__social" target="_blank"><i class="uil uil-telegram"></i></a>
+						<a href="#" class="footer__social" target="_blank"><i class="uil uil-instagram"></i></a>
+					</div>
+				</div>
+
+				<p class="footer__copy">&#169; azamats.blog. All Rights Reserved</p>
+			</div>
+		</footer>
 
     <!--==================== SCROLL TOP ====================-->
+		<a href="#" class="scrollup" id="scroll-up">
+			<i class="uil uil-arrow-up scrollup__icon"></i>
+		</a>
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
